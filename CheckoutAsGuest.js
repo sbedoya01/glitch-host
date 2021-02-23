@@ -3,7 +3,7 @@ let port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`Listening on ${port}`));
 
 app.get("/", (req, res) => {
-    res.send("hello world")
+    res.send({ "test": "This is a test" })
 })
 
 // const { Builder, By, until } = require('selenium-webdriver');
