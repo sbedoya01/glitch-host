@@ -1,11 +1,3 @@
-// const app = require('express')();
-// let port = process.env.PORT || 3000;
-// app.listen(port, () => console.log(`Listening on ${port}`));
-
-// app.get("/", (req, res) => {
-//     res.send({ "test": "This is a test" })
-// })
-
 const { Builder, By, until } = require('selenium-webdriver');
 var fs = require('fs');
 var nodemailer = require('nodemailer');
